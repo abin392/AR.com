@@ -275,6 +275,15 @@ body::-webkit-scrollbar {
     .left-side-view .whole-content {
         height: 160vh;
         width: 100%;
+        margin: 0px;
+    }
+
+    .left-side-view .whole-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .more-detail-container .more-detail {
+        width: 100%;
     }
 
     .web-destript {
