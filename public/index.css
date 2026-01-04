@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
 }
 
 .left-side-view .whole-content {
-    margin: 0px 15px 0px 15px;
+    margin: 0px 15px -10px 15px;
     padding: 0px;
     background: #e6f7f7;
     height: 100vh;
@@ -278,7 +278,7 @@ body::-webkit-scrollbar {
     }
 
     .left-side-view .whole-content{
-        height: 200vh;
+        height: 160vh;
     }
 
     .web-destript {
