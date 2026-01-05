@@ -17,6 +17,10 @@ body::-webkit-scrollbar {
     scroll-behavior: smooth;
 }
 
+.left-side-view .whole-content::-webkit-scrollbar {
+    display: none;
+}
+
 .sponsored-result {
     color: #e6f7f7;
     width: 100%;
@@ -127,6 +131,10 @@ body::-webkit-scrollbar {
     height: 100vh;
     overflow-y: scroll;
     scroll-behavior: smooth;
+}
+
+.right-side-view::-webkit-scrollbar {
+   display: none;
 }
 
 .right-side-view .top h1 {
