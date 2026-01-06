@@ -134,7 +134,7 @@ body::-webkit-scrollbar {
 }
 
 .right-side-view::-webkit-scrollbar {
-   display: none;
+    display: none;
 }
 
 .right-side-view .top h1 {
@@ -204,74 +204,33 @@ body::-webkit-scrollbar {
 }
 
 .right-side-view .make-detail .detail-1 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.right-side-view .make-detail .detail-1 h5 {
-    font-weight: bold;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-.right-side-view .make-detail .detail-1 p {
-    margin-left: -110px;
-    margin-top: 22px;
-    font-size: 15px;
-    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
 }
 
 .right-side-view .make-detail .detail-2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.right-side-view .make-detail .detail-2 h5 {
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-.right-side-view .make-detail .detail-2 p {
-    margin-left: -230px;
-    margin-top: 2px;
-    font-size: 15px;
-    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
 }
 
 .right-side-view .make-detail .detail-3 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.right-side-view .make-detail .detail-3 h5 {
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-.right-side-view .make-detail .detail-3 p {
-    margin-left: -236px;
-    margin-top: 2px;
-    font-size: 15px;
-    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
 }
 
 .right-side-view .make-detail .detail-4 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
 }
 
-.right-side-view .make-detail .detail-4 h5 {
-    font-weight: bold;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.right-side-view .make-detail .detail-4 p {
-    margin-left: -160px;
-    margin-top: 2px;
-    font-size: 15px;
-    font-weight: 500;
-}
 
 @media (max-width:560px) {
 
